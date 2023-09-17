@@ -1,0 +1,7 @@
+/* grid inspired by Learn JS by building 7 games video */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+} 
