@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  font awesome and google?? -->
+
     <title>MERGE</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Merriweather+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <div class="title-container">
-        <h1>MERGE</h1>
-        <h2>memory game</h2>
+    <h1 class="heading">
+        <img class="logo" src ="assets/images/logo.png" alt="logo"> MERGE
+    </h1>
+
+    <div class ="game-area">
     </div>
-    <div class="grid-container"></div>
-    <h3>Score: <span id="result"></span></h3>
+
+    <div class="score-area">
+        <p class="scores">Score: <span id="score"></span></p>
+        <p class="scores">Time: <span id="time"></span></p>
+    </div>
+
+
+
+    <script src="assets/js/script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
