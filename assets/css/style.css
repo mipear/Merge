@@ -1,11 +1,26 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
 /* grid inspired by Learn JS by building 7 games video */
-.grid-container {
+.game-area {
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
-    width: 400px;
-} 
+    height: 600px;
+    width: 1000px;
+    background-color: #e0e0e0;
+    margin: auto;
+    border: 3px solid #ffb01fff;
+    padding: 10px;
+}
 
+h1 {
+    font-family: 'Martian Mono', monospace;
+    text-align: center;
+    font-size: 50px;
+    color: #f00505ff;
+}
 
-font-family: 'Martian Mono',
-monospace;
+/* Score area */
+.score-area p {
+    color: #4ecc00ff;
+}
