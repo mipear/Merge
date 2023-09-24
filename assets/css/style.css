@@ -1,6 +1,19 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
 
+/* Merge Logo */
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-family: 'Martian Mono', monospace;
+    text-align: center;
+    font-size: 50px;
+    color: #f00505ff;
+}
+
 /* grid inspired by Learn JS by building 7 games video */
 .game-area {
     display: flex;
@@ -11,13 +24,6 @@
     margin: auto;
     border: 3px solid #ffb01fff;
     padding: 10px;
-}
-
-h1 {
-    font-family: 'Martian Mono', monospace;
-    text-align: center;
-    font-size: 50px;
-    color: #f00505ff;
 }
 
 /* Score area */
