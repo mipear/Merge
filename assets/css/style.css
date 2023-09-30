@@ -25,6 +25,10 @@ h1 {
     border: 5px solid #ffb01fff;
 }
 
+.cardSign {
+    height: 50px;
+    width: 50px;
+}
 
 /* Score area */
 .score-area p {

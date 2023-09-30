@@ -47,7 +47,12 @@ document.addEventListener('DOMContentLoaded', function() {
    }
     ]
 
+    const gameArea = document.getElementsByClassName('.game-area');
+
     let shuffleCards = [];
+    let flipCard = [];
+    let cardMatch = [];
+    let noMatch = [];
 
     function shuffleCards() {
         shuffleCards = [...cardArray];
@@ -58,12 +63,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    const gameArea = document.getElementsByClassName('.game-area');
 
     for (let gameArea of gameArea)(
         gameArea.addEventListener("click"), function() {
             if (this.getAttribute("datatype") === "flipCard") {
-
             }
         }
     )
