@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+
+
+
+
+
+
     const cardArray = [
    {
       name: 'National Speed Limit',
@@ -30,30 +37,45 @@ document.addEventListener('DOMContentLoaded', () => {
    },
    {
     name: 'With flow bus',
-    img: 'assets/withflowbus.webp'
+    img: 'images/withflowbus.webp'
    },
    {
     name: 'End Controlled',
-    img: 'assets/endcontrolled.webp'
+    img: 'images/endcontrolled.webp'
    },
    {
     name: 'No Through Road',
-    img: 'assets/nothroughroad.webp'
+    img: 'images/nothroughroad.webp'
    },
    {
     name: 'Camera',
-    img: 'assets/camera.webp'
+    img: 'images/camera.webp'
    }
     ]
-
-const cardarea = document.querySelector('.card-area')
-
-
-
-
-
-
-
-
-
 })
+
+function runGame(){
+
+}
+
+function shuffleCards(){
+
+}
+
+function flipCard() {
+// noClick() //
+}
+
+function detectMatch() {
+    if no matchMedia, unflipCard()
+    else keep flipCard, incrementScore()
+}
+
+function incrementScore() {
+
+}
+
+function resetGame() {
+
+}
+
