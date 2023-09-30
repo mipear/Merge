@@ -1,11 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-
-
-
-
-
-
-
+// Wait for DOM to finish loading as suggested in Love Maths' 'Creating Event Listeners'//
+document.addEventListener('DOMContentLoaded', function() {
     const cardArray = [
    {
       name: 'National Speed Limit',
@@ -52,15 +46,34 @@ document.addEventListener('DOMContentLoaded', () => {
     img: 'images/camera.webp'
    }
     ]
+
+    let shuffleCards = [];
+
+    function shuffleCards() {
+        shuffleCards = [...cardArray];
+        for (let i = shuffleCards.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffleCards[i],
+        shuffleCards[j]] = [shuffleCards[j], shuffleCards[i]];
+        }
+    }
+
+    const gameArea = document.getElementsByClassName('.game-area');
+
+    for (let gameArea of gameArea)(
+        gameArea.addEventListener("click"), function() {
+            if (this.getAttribute("datatype") === "flipCard") {
+
+            }
+        }
+    )
 })
 
 function runGame(){
 
 }
 
-function shuffleCards(){
 
-}
 
 function flipCard() {
 // noClick() //
