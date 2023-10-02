@@ -46,13 +46,32 @@ document.addEventListener('DOMContentLoaded', function() {
     img: 'images/camera.webp'
    }
     ]
+})
 
-    const gameArea = document.getElementsByClassName('.game-area');
+ const gameArea = document.getElementsByClassName('.game-area');
 
+
+ //inspired by making 7 games video //
+
+ function runGame() {
+    for (let i = 0; i < cardArray.length; i++) {
+        var card = document.createElement('img')
+        card.setAttribute('src', 'images/camera.webp')
+        card.setAttribute('data-id', i)
+        card.addEventListener('click', flipCard)
+        gameArea.appendChild(card)
+    }
+ }
+
+    let runGame = [];
     let shuffleCards = [];
     let flipCard = [];
+    let unflipCard = [];
+    let noClick = [];
+    let detectMatch = [];
     let cardMatch = [];
     let noMatch = [];
+    let incrementScore = [];
 
     function shuffleCards() {
         shuffleCards = [...cardArray];
@@ -70,7 +89,10 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     )
-})
+
+    function cardClicked (event) {
+        if (event.target)
+    }
 
 function runGame(){
 
