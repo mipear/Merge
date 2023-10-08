@@ -18,8 +18,8 @@ h1 {
 .game-area {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
-    width: 1000px;
+    height: 400px;
+    width: 500px;
     background-color: #e0e0e0;
     margin: auto;
     border: 5px solid #ffb01fff;
