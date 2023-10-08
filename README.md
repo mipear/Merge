@@ -1,39 +1,49 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MERGE
 
-Welcome,
+MERGE is a memory game that hopes to educate learner drivers of UK Road Signs in a fun, purposeful way. MERGE is targeted towards learner drivers and is a memory card matching game in which users have to match images of the road signs to their definitions. MERGE will be useful to learner drivers as it will create an addictive, fun space to learn the road signs in order to eventually pass their theory test.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Mockup
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
 
-## Codeanywhere Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+**Start game page**
 
-`python3 -m http.server`
+**Favicon**
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Features left to implement
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Testing
 
-`http_server`
+### Validator Testing
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Unfixed Bugs
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Deployment
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The game was deployed to GitHub pages. The steps to deploy are as follows:
 
-To log into the Heroku toolbelt CLI:
+- Open file repository on github as found [here] (<https://github.com/mipear/Merge>)
+- Click “Settings” on the right of the top nav bar
+- Click on “Pages” under the “Code and automation” menu
+- Under the “Build and deployment” section, switch the Branch from “None” to “Main” and Save
+- The live link can be found here: [Live link] (<https://mipear.github.io/Merge/>)
+- If you wish the customise the domain for the site, you can do so by typing and saving your new domain under the “Custom domain” section beneath “Build and deployment”.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Credits
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Content
 
----
+- The Code Institute course tutorials have been imperative when creating this game. Namely, the [Love Maths Tutorial] (<https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/8f9b28d4b7664bb59ddf18b8e090671f/87791688b88e46099e3a77f455419aa8/>)
+- [Google Fonts's] (<https://fonts.google.com/>) Martian Mono, monospace was used for the title and text of the game.
+- I used [Coolors] (<https://coolors.co/palette/fa0707-ffa600-52d600-ffffff-e2e2e2>) to generate a colour palette. My palette is a simple one that includes traffic light colours in keeping with the road theme.
+- [Favicon] (<https://favicon.io/favicon-converter/>) was used to create the game's Favicon
+- In order to assist in creating this README.md, I used [this] (<https://github.com/Code-Institute-Solutions/readme-template>) template.
+- [User Stories Guide] (<https://github.com/awkale/user-story-best-practice/blob/master/README.md>)
+- Tutorials!!!!!!
 
-Happy coding!
+### Media
+
+- The traffic signs and their definitions were taken from [Gov.uk's Highway Code Traffic Signs] (<https://assets.publishing.service.gov.uk/media/58170307ed915d61c5000000/the-highway-code-traffic-signs.pdf>)
+- I created the image of the car and the favicon merge sign using [Procreate] (<https://procreate.com/>)

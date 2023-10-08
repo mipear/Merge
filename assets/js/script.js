@@ -111,27 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
             card.addEventListener("click", flipCard);
             gameArea.appendChild(card);
         }
-    ];
 
-    cardArray.sort(() => 0.5 - Math.random());
-
-    const gameArea = document.querySelector(".game-area");
-    const displayResult = document.querySelector("#result");
-    var clickedCard = [];
-    var clickedCardId = [];
-    let mergedCards = [];
-
-    //inspired by making 7 games video //
-
-    function generateCards() {
-        for (let i = 0; i < cardArray.length; i++) {
-            var card = document.createElement("img");
-            card.setAttribute("src", "assets/images/backCard.webp");
-            card.setAttribute("card-index", i);
-            card.addEventListener("click", flipCard);
-            gameArea.appendChild(card);
-        }
-        
     }
 
     function matchCheck() {
