@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             name: "No Stopping",
-            img: "assets/image/nostopping.webp"
+            img: "assets/images/nostopping.webp"
         },
         {
             name: "Mini Roundabout",
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             name: "Frail Pedestrian Crossing",
-            img: "assets/images/frailpedestrians.webp"
+            img: "assets/images/frailpedestrianscross.webp"
         },
         {
             name: "End of Motorway",
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             name: "No Stopping",
-            img: "assets/image/definitionnostopping.webp"
+            img: "assets/images/definitionnostopping.webp"
         },
         {
             name: "Mini Roundabout",
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             name: "End of Motorway",
-            img: "asstes/images/definitionendmotorway.webp"
+            img: "assets/images/definitionendmotorway.webp"
         },
         {
             name: "With flow bus",
@@ -124,8 +124,8 @@ document.addEventListener("DOMContentLoaded", () => {
             );
             mergedCards.push(clickedCard);
         } else {
-            cards[firstCardId].setAttribute("src", "assets/images/white.webp");
-            cards[secondCardId].setAttribute("src", "assets/images/white.webp");
+            cards[firstCardId].setAttribute("src", "assets/images/backCard.webp");
+            cards[secondCardId].setAttribute("src", "assets/images/backCard.webp");
             alert("Not quite, keep trying");
         }
         clickedCard = [];
