@@ -4,39 +4,35 @@ document.addEventListener("DOMContentLoaded", () => {
         // Images of road signs //
         {
             name: "National Speed Limit",
-            img: "asstes/images/nationalspeedlimit.webp"
+            img: "assets/images/nationalspeedlimit.webp"
         },
         {
             name: "No Stopping",
-            img: "asstes/image/nostopping.webp"
+            img: "assets/image/nostopping.webp"
         },
         {
             name: "Mini Roundabout",
-            img: "asstes/images/miniroundabout.webp"
+            img: "assets/images/miniroundabout.webp"
         },
         {
             name: "No Overtaking",
-            img: "asstes/images/noovertaking.webp"
+            img: "assets/images/noovertaking.webp"
         },
         {
             name: "Steep Downwards",
-            img: "asstes/images/steepdownwards.webp"
+            img: "assets/images/steepdownwards.webp"
         },
         {
             name: "Frail Pedestrian Crossing",
-            img: "asstes/images/frailpedestrians.webp"
+            img: "assets/images/frailpedestrians.webp"
         },
         {
             name: "End of Motorway",
-            img: "asstes/images/endmotorway.webp"
+            img: "assets/images/endmotorway.webp"
         },
         {
             name: "With flow bus",
-            img: "asstes/images/withflowbus.webp"
-        },
-        {
-            name: "End Controlled",
-            img: "asstes/images/endcontrolled.webp"
+            img: "assets/images/withflowbus.webp"
         },
         {
             name: "No Through Road",
@@ -49,27 +45,27 @@ document.addEventListener("DOMContentLoaded", () => {
         // Definitions of road signs //
         {
             name: "National Speed Limit",
-            img: "asstes/images/definitionnationalspeedlimit.webp"
+            img: "assets/images/definitionnationalspeedlimit.webp"
         },
         {
             name: "No Stopping",
-            img: "asstes/image/definitionnostopping.webp"
+            img: "assets/image/definitionnostopping.webp"
         },
         {
             name: "Mini Roundabout",
-            img: "asstes/images/definitionminiroundabout.webp"
+            img: "assets/images/definitionminiroundabout.webp"
         },
         {
             name: "No Overtaking",
-            img: "asstes/images/definitionnoovertaking.webp"
+            img: "assets/images/definitionnoovertaking.webp"
         },
         {
             name: "Steep Downwards",
-            img: "asstes/images/definitionsteepdownwards.webp"
+            img: "assets/images/definitionsteepdownwards.webp"
         },
         {
             name: "Frail Pedestrian Crossing",
-            img: "asstes/images/definitionfrailpedestrians.webp"
+            img: "assets/images/definitionfrailpedestrians.webp"
         },
         {
             name: "End of Motorway",
@@ -77,11 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             name: "With flow bus",
-            img: "asstes/images/definitionwithflowbus.webp"
-        },
-        {
-            name: "End Controlled",
-            img: "asstes/images/definitionendcontrolled.webp"
+            img: "assets/images/definitionwithflowbus.webp"
         },
         {
             name: "No Through Road",
