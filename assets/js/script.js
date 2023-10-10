@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
 
-        if (clickedCard[0] === clickedCard[1]) {
+        if (clickedCard[0] == clickedCard[1]) {
             // should use modal instead of alert
             alert("Great merge!");
             cards[firstCardId].setAttribute(
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         clickedCard = [];
         clickedCardId = [];
-        displayResult = [];
+        let displayResult = [];
         displayResult.textContent = mergedCards.length;
         if (mergedCards.length === cardArray.length / 2) {
             resultDisplay.textContent = "Congratulations!";
