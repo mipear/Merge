@@ -103,7 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
             card.addEventListener("click", flipCard);
             gameArea.appendChild(card);
         }
-
     }
 
     function matchCheck() {
@@ -111,16 +110,16 @@ document.addEventListener("DOMContentLoaded", () => {
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
 
-        if (clickedCard[0] == clickedCard[1]) {
+        if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId) {
             // should use modal instead of alert
             alert("Great merge!");
             cards[firstCardId].setAttribute(
                 "src",
-                "assets/images/backCard.webp"
+                "assets/images/white.webp"
             );
             cards[secondCardId].setAttribute(
                 "src",
-                "assets/images/backCard.webp"
+                "assets/images/white.webp"
             );
             mergedCards.push(clickedCard);
         } else {
@@ -133,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let displayResult = [];
         displayResult.textContent = mergedCards.length;
         if (mergedCards.length === cardArray.length / 2) {
-            resultDisplay.textContent = "Congratulations!";
+            displayResult.textContent = "Congratulations!";
         }
     }
 
