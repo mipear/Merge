@@ -14,10 +14,23 @@
   </head>
 
   <body>
-      <img class="logo" src="assets/images/logo.webp" alt="logo" />
-      <h1 class="heading">MERGE</h1>
+    <img class="logo" src="assets/images/logo.webp" alt="logo" />
+    <h1 class="heading">MERGE</h1>
 
-      <div class="game-area"></div>
+    <div class="game-area">
+      <div class="modal-try" id="modal-try">
+        <div class="modal-content-t">
+          <span class="closeModal">Close</span>
+          <p>Sorry, please try again.</p>
+        </div>
+      </div>
+      <div class="modal-merge" id="modal-merge">
+        <div class="modal-content-m">
+          <span class="closeModal">Close</span>
+          <p>Great MERGE!</p>
+        </div>
+      </div>
+    </div>
 
     <div class="score-area">
       <p class="scores">Score: <span id="score"></span></p>

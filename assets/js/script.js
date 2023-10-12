@@ -105,6 +105,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    const modalTry = document.getElementById("modal-try");
+    const modalMerge = document.getElementById("modal-merge");
+    var closeModal = document.getElementsByClassName("closeModal")[0];
+
+    closeModal.addEventListener('click', closeModal);
+
     function matchCheck() {
         var cards = document.querySelectorAll("img");
         const firstCardId = clickedCardId[0];
@@ -112,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId) {
             // should use modal instead of alert
-            alert("Great merge!");
+            modalMerge.style.display = "block";
             cards[firstCardId].setAttribute(
                 "src",
                 "assets/images/white.webp"
@@ -125,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             cards[firstCardId].setAttribute("src", "assets/images/backCard.webp");
             cards[secondCardId].setAttribute("src", "assets/images/backCard.webp");
-            alert("Not quite, keep trying");
+            modalTry.style.display = "block";
         }
         clickedCard = [];
         clickedCardId = [];
@@ -135,6 +141,16 @@ document.addEventListener("DOMContentLoaded", () => {
             displayResult.textContent = "Congratulations!";
         }
     }
+
+    modalTry.addEventListener('click', () => {
+        modalTry.style.display = "none";
+        clickedCard = null;
+    });
+
+    modalMerge.addEventListener('click', () => {
+        modalMerge.style.display = "none";
+        clickedCard = null;
+    });
 
     function flipCard() {
         var cardIndex = this.getAttribute("card-index");
