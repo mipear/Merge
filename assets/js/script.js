@@ -116,18 +116,22 @@ document.addEventListener("DOMContentLoaded", () => {
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
 
-        if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId) {
+        console.log(modalMerge);
+
+        if (firstCardId === secondCardId) {
             // should use modal instead of alert
             modalMerge.style.display = "block";
             cards[firstCardId].setAttribute(
                 "src",
-                "assets/images/white.webp"
+                "assets/images/merge.webp"
             );
             cards[secondCardId].setAttribute(
                 "src",
-                "assets/images/white.webp"
+                "assets/images/merge.webp"
             );
             mergedCards.push(clickedCard);
+            clickedCard = [];
+            clickedCardId = [];
         } else {
             cards[firstCardId].setAttribute("src", "assets/images/backCard.webp");
             cards[secondCardId].setAttribute("src", "assets/images/backCard.webp");
@@ -135,21 +139,21 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         clickedCard = [];
         clickedCardId = [];
-        let displayResult = [];
+
         displayResult.textContent = mergedCards.length;
         if (mergedCards.length === cardArray.length / 2) {
             displayResult.textContent = "Congratulations!";
         }
     }
 
-    modalTry.addEventListener('click', () => {
+    modalTry.addEventListener("click", () => {
         modalTry.style.display = "none";
-        clickedCard = null;
+        clickedCard = [];
     });
 
-    modalMerge.addEventListener('click', () => {
+    modalMerge.addEventListener("click", () => {
         modalMerge.style.display = "none";
-        clickedCard = null;
+        clickedCard = [];
     });
 
     function flipCard() {
@@ -163,5 +167,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     generateCards();
+    console.log(generateCards);
+    console.log(flipCard);
+    console.log(matchCheck);
 });
 
