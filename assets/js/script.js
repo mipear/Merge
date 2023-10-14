@@ -93,6 +93,48 @@ document.addEventListener("DOMContentLoaded", () => {
     var clickedCardId = [];
     let mergedCards = [];
 
+    // How to play and Need help modals//
+    var modalInstructions = document.getElementById("instructionsModal");
+    var modalRevise = document.getElementById("helpModal");
+    var btnInstructions = document.getElementById("how-to-play");
+    var btnRevise = document.getElementById("help");
+    var closeInstructions = document.getElementsByClassName("close-instructions")[0];
+    var closeRevision = document.getElementsByClassName("close-revision")[0];
+
+    btnInstructions.onclick = function () {
+        modalInstructions.style.display = "block";
+    };
+    console.log(btnInstructions);
+
+    btnRevise.onclick = function () {
+        modalRevise.style.display = "block";
+    };
+    console.log(btnRevise);
+
+    closeInstructions.onclick = function () {
+        modalInstructions.style.display = "none";
+    };
+    console.log(closeInstructions);
+
+    closeRevision.onclick = function () {
+        modalRevise.style.display = "none";
+    };
+    console.log(closeRevision);
+
+    window.onclick = function (event) {
+        if (event.target == modalInstructions) {
+            modalInstructions.style.display = "none";
+        }
+    };
+
+    window.onclick = function (event) {
+        if (event.target == modalRevise) {
+            modalRevise.style.display = "none";
+        }
+    };
+
+
+
     //inspired by making 7 games video //
 
     function generateCards() {
