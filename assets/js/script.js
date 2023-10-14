@@ -112,13 +112,13 @@ document.addEventListener("DOMContentLoaded", () => {
     closeModal.addEventListener('click', closeModal);
 
     function matchCheck() {
-        var cards = document.querySelectorAll("img");
+        var cards = document.querySelectorAll("img:not(.logo)");
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
 
         console.log(modalMerge);
 
-        if (firstCardId === secondCardId) {
+        if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId) {
             // should use modal instead of alert
             modalMerge.style.display = "block";
             cards[firstCardId].setAttribute(
