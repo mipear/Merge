@@ -93,6 +93,8 @@ h1 {
     cursor: pointer;
 }
 
+/* Traffic signs and definitions image within the modal, taken from https: //www.gov.uk/guidance/the-highway-code/traffic-signs */
+
 #trafficSigns {
     display: block;
     width: 100%;
@@ -110,6 +112,7 @@ h1 {
     border: 5px solid #ffb01fff;
 }
 
+/* Modal for card match */
 .modal-merge {
     display: none;
     position: fixed;
@@ -132,6 +135,7 @@ h1 {
     font-size: 20px;
 }
 
+/* Modal for unsuccessful attempt at matching cards */
 .modal-try {
     display: none;
     position: fixed;

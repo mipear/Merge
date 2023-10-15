@@ -13,47 +13,54 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
 
+  <!--This is the logo-->
   <body>
     <img class="logo" src="assets/images/logo.webp" alt="logo" />
     <h1 class="heading">MERGE</h1>
 
+    <!--How to play modal-->
     <section>
       <button id="how-to-play" class="how-to-play">How to play</button>
-      <div id="instructionsModal" class="instructions-modal"></div>
-      <div class="instructions-content">
-        <span class="close-instructions">&times;</span>
-        <h3>How to play</h3>
-        <p>
-          When clicked, the car will reveal either a road sign or its
-          definition. Can you find all 10 pairs?
-        </p>
+      <div id="instructionsModal" class="instructions-modal">
+        <div class="instructions-content">
+          <span class="close-instructions">&times;</span>
+          <h3>How to play</h3>
+          <p>
+            When clicked, the car will reveal either a road sign or its
+            definition. Can you find all 10 pairs?
+          </p>
+        </div>
       </div>
 
+      <!--Modal for if player needs to revise signs and their definitions-->
       <button id="help" class="help">Need help?</button>
-      <div id="helpModal" class="help-modal"></div>
-      <div class="help-content">
-        <span class="close-revision">&times;</span>
-        <p>
-          Need a quick recap? Here are the road signs and definitions featured
-          in this game:
-        </p>
-        <img id="trafficSigns"
-          src="assets/images/roadsigns.webp"
-          alt="Road signs and their definitions used in this game"
-        />
-        <p>
-          For further road signs, please see the official
-          <a href="https://www.gov.uk/guidance/the-highway-code/traffic-signs"
-            >GOV.UK </a
-          >full list of<a
-            href="https://assets.publishing.service.gov.uk/media/58170307ed915d61c5000000/the-highway-code-traffic-signs.pdf"
-          >
-            The Highway Code: traffic signs</a
-          >.
-        </p>
+      <div id="helpModal" class="help-modal">
+        <div class="help-content">
+          <span class="close-revision">&times;</span>
+          <p>
+            Need a quick recap? Here are the road signs and definitions featured
+            in this game:
+          </p>
+          <img
+            id="trafficSigns"
+            src="assets/images/roadsigns.webp"
+            alt="Road signs and their definitions used in this game"
+          />
+          <p>
+            For further road signs, please see the official
+            <a href="https://www.gov.uk/guidance/the-highway-code/traffic-signs"
+              >GOV.UK </a
+            >full list of<a
+              href="https://assets.publishing.service.gov.uk/media/58170307ed915d61c5000000/the-highway-code-traffic-signs.pdf"
+            >
+              The Highway Code: traffic signs</a
+            >.
+          </p>
+        </div>
       </div>
     </section>
 
+    <!--This is the game area-->
     <div class="game-area">
       <div class="modal-try" id="modal-try">
         <div class="modal-content-t">
@@ -69,6 +76,7 @@
       </div>
     </div>
 
+    <!--This is the score area-->
     <div class="score-area">
       <p class="scores">Score: <span id="score"></span></p>
       <p class="scores">Time: <span id="time"></span></p>
@@ -76,6 +84,7 @@
 
     <div id="result"></div>
 
+    <!--This links to the script.js file-->
     <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
     ];
 
+    // Randomizes cards //
     cardArray.sort(() => 0.5 - Math.random());
 
     const gameArea = document.querySelector(".game-area");
@@ -95,11 +96,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // How to play and Need help modals//
     var modalInstructions = document.getElementById("instructionsModal");
-    var modalRevise = document.getElementById("helpModal");
+    var modalRevise = document.querySelector("#helpModal");
     var btnInstructions = document.getElementById("how-to-play");
     var btnRevise = document.getElementById("help");
-    var closeInstructions = document.getElementsByClassName("close-instructions")[0];
-    var closeRevision = document.getElementsByClassName("close-revision")[0];
+    var closeInstructions = document.querySelector(".close-instructions");
+    var closeRevision = document.querySelector(".close-revision");
+    console.log(closeRevision);
 
     btnInstructions.onclick = function () {
         modalInstructions.style.display = "block";
@@ -135,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    //inspired by making 7 games video //
+    //inspired by making 7 games video. Generates cards//
 
     function generateCards() {
         for (let i = 0; i < cardArray.length; i++) {
@@ -147,11 +149,15 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // Modals for matching and not matching cards //
+
     const modalTry = document.getElementById("modal-try");
     const modalMerge = document.getElementById("modal-merge");
     var closeModal = document.getElementsByClassName("closeModal")[0];
 
     closeModal.addEventListener('click', closeModal);
+
+    // Function checks if there is a match between images excluding the logo//
 
     function matchCheck() {
         var cards = document.querySelectorAll("img:not(.logo)");
