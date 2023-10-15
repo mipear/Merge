@@ -213,4 +213,3 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(flipCard);
     console.log(matchCheck);
 });
-
