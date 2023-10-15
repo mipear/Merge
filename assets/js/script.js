@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Function checks if there is a match between images excluding the logo//
 
     function matchCheck() {
-        var cards = document.querySelectorAll("img:not(.logo)");
+        var cards = document.querySelectorAll("img:not(.logo, #trafficSigns)");
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
 
