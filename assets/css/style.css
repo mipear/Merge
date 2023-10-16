@@ -184,6 +184,8 @@ h1 {
 /* Score area */
 .score-area p {
     color: #4ecc00ff;
+    text-align: center;
+    font-size: 25px;
 }
 
 /* Media Queries to allow responsivity */
