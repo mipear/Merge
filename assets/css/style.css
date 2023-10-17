@@ -17,8 +17,13 @@ h1 {
 
 /* How to play modal */
 
+.container-button {
+    text-align: center;
+}
+
 #how-to-play {
     background-color: #ffb01fff;
+    margin: auto;
 }
 
 .instructions-modal {
@@ -49,8 +54,7 @@ h1 {
 
 #help {
     background-color: #ffb01fff;
-    left: 50%;
-    top: 50%;
+    margin: auto;
 }
 
 .help-modal {
