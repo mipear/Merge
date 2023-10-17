@@ -180,6 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
             mergedCards.push(clickedCard);
             clickedCard = [];
             clickedCardId = [];
+
         } else {
             cards[firstCardId].setAttribute("src", "assets/images/backCard.webp");
             cards[secondCardId].setAttribute("src", "assets/images/backCard.webp");
@@ -187,6 +188,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         clickedCard = [];
         clickedCardId = [];
+
 
         displayResult.textContent = mergedCards.length;
         if (mergedCards.length === cardArray.length / 2) {

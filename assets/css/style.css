@@ -11,8 +11,9 @@
 h1 {
     font-family: "Martian Mono", monospace;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: #f00505ff;
+    margin-top: 0;
 }
 
 /* How to play modal */
@@ -24,6 +25,7 @@ h1 {
 #how-to-play {
     background-color: #ffb01fff;
     margin: auto;
+    font-size: 15px;
 }
 
 .instructions-modal {
@@ -55,6 +57,7 @@ h1 {
 #help {
     background-color: #ffb01fff;
     margin: auto;
+    font-size: 15px;
 }
 
 .help-modal {
@@ -212,5 +215,13 @@ h1 {
     .game-area {
         width: 300px;
         height: auto;
+    }
+
+    h1 {
+        margin: 20px;
+    }
+
+    .logo {
+        display: none;
     }
 }
