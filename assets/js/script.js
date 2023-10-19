@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Images of road signs //
         {
             name: "National Speed Limit",
-            img: "assets/images/nationalspeedlimit.webp"
+            img: "assets/images/nationalspeedlimit.webp",
         },
         {
             name: "No Stopping",
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function generateCards() {
         for (let i = 0; i < cardArray.length; i++) {
             var card = document.createElement("img");
-            card.setAttribute("src", "assets/images/backCard.webp");
+            card.setAttribute("src", "assets/images/backcard.webp");
             card.setAttribute("card-index", i);
             card.addEventListener("click", flipCard);
             gameArea.appendChild(card);
@@ -157,10 +157,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     closeModal.addEventListener('click', closeModal);
 
-    // Function checks if there is a match between images excluding the logo//
+    // Function checks if there is a match between cards//
 
     function matchCheck() {
-        var cards = document.querySelectorAll("img:not(.logo, #trafficSigns)");
+        var cards = document.querySelectorAll("img:not(#trafficSigns)");
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
 
@@ -182,8 +182,8 @@ document.addEventListener("DOMContentLoaded", () => {
             clickedCardId = [];
 
         } else {
-            cards[firstCardId].setAttribute("src", "assets/images/backCard.webp");
-            cards[secondCardId].setAttribute("src", "assets/images/backCard.webp");
+            cards[firstCardId].setAttribute("src", "assets/images/backcard.webp");
+            cards[secondCardId].setAttribute("src", "assets/images/backcard.webp");
             modalTry.style.display = "block";
         }
         clickedCard = [];
@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
         clickedCardId.push(cardIndex);
         this.setAttribute("src", cardArray[cardIndex].img);
         if (clickedCard.length === 2) {
-            setTimeout(matchCheck, 500);
+            setTimeout(matchCheck, 1000);
         }
     }
 

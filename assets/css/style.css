@@ -1,19 +1,12 @@
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap");
 
-/* Merge Logo */
-.logo {
-    width: 100px;
-    height: 100px;
-    position: fixed;
-}
-
 h1 {
     font-family: "Martian Mono", monospace;
     text-align: center;
     font-size: 60px;
     color: #f00505ff;
-    margin-top: 0;
+    margin: 20px;
 }
 
 /* How to play modal */
@@ -221,7 +214,4 @@ h1 {
         margin: 20px;
     }
 
-    .logo {
-        display: none;
-    }
 }
