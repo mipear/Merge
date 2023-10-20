@@ -34,14 +34,14 @@
           <h3>How to play</h3>
           <p>
             When clicked, the card will reveal either a road sign or its
-            definition. Can you merge all 10 pairs?
+            definition. If you can match the sign to its definition, the MERGE sign will appear and you will gain a point. Can you merge all 10 pairs?
           </p>
         </div>
       </div>
 
       <!--Modal for if player needs to revise signs and their definitions-->
       <button id="help" class="help">Need help?</button>
-      <div id="helpModal" class="help-modal">
+      <div id="help-modal" class="help-modal">
         <div class="help-content">
           <span class="close-revision">&times;</span>
           <p>
@@ -49,7 +49,7 @@
             in this game:
           </p>
           <img
-            id="trafficSigns"
+            id="traffic-signs"
             src="assets/images/roadsigns.webp"
             alt="Road signs and their definitions used in this game"
           />
@@ -75,13 +75,13 @@
     <div class="game-area">
       <div class="modal-try" id="modal-try">
         <div class="modal-content-t">
-          <span class="closeModal">&times;</span>
+          <span class="close-modal">&times;</span>
           <p>Sorry, please try again.</p>
         </div>
       </div>
       <div class="modal-merge" id="modal-merge">
         <div class="modal-content-m">
-          <span class="closeModal">&times;</span>
+          <span class="close-modal">&times;</span>
           <p>Great MERGE!</p>
         </div>
       </div>

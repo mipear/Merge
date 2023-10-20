@@ -96,33 +96,28 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
     // How to play and Need help modals//
-    var modalInstructions = document.getElementById("instructionsModal");
-    var modalRevise = document.querySelector("#helpModal");
+    var modalInstructions = document.getElementById("instructions-modal");
+    var modalRevise = document.querySelector("#help-modal");
     var btnInstructions = document.getElementById("how-to-play");
     var btnRevise = document.getElementById("help");
     var closeInstructions = document.querySelector(".close-instructions");
     var closeRevision = document.querySelector(".close-revision");
-    console.log(closeRevision);
 
     btnInstructions.onclick = function () {
         modalInstructions.style.display = "block";
     };
-    console.log(btnInstructions);
 
     btnRevise.onclick = function () {
         modalRevise.style.display = "block";
     };
-    console.log(btnRevise);
 
     closeInstructions.onclick = function () {
         modalInstructions.style.display = "none";
     };
-    console.log(closeInstructions);
 
     closeRevision.onclick = function () {
         modalRevise.style.display = "none";
     };
-    console.log(closeRevision);
 
     window.onclick = function (event) {
         if (event.target == modalInstructions) {
@@ -154,19 +149,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const modalTry = document.getElementById("modal-try");
     const modalMerge = document.getElementById("modal-merge");
-    var closeModal = document.getElementsByClassName("closeModal")[0];
+    var closeModal = document.getElementsByClassName("close-modal")[0];
 
     closeModal.addEventListener('click', closeModal);
 
     // Function checks if there is a match between cards//
 
     function matchCheck() {
-        var cards = document.querySelectorAll("img:not(#trafficSigns)");
+        var cards = document.querySelectorAll("img:not(#traffic-signs)");
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
-
-
-        console.log(modalMerge);
 
         if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId){
             // should use modal instead of alert
@@ -216,11 +208,8 @@ document.addEventListener("DOMContentLoaded", () => {
         this.setAttribute("src", cardArray[cardIndex].img);
         if (clickedCard.length === 2) {
             setTimeout(matchCheck, 1000);
-        }
-    }
+        };
+    };
 
     generateCards();
-    console.log(generateCards);
-    console.log(flipCard);
-    console.log(matchCheck);
 });
