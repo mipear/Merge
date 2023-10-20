@@ -2,6 +2,10 @@
 
 MERGE is a memory game that hopes to educate learner drivers of UK Road Signs in a fun, purposeful way. MERGE is targeted towards learner drivers and is a memory card matching game in which users have to match images of the road signs to their definitions. MERGE will be useful to learner drivers as it will create an addictive, fun space to learn the road signs in order to eventually pass their theory test.
 
+## User Stories
+
+## Wireframes
+
 ## Mockup
 
 ## Features

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Images of road signs //
         {
             name: "National Speed Limit",
-            img: "assets/images/nationalspeedlimit.webp",
+            img: "assets/images/nationalspeedlimit.webp"
         },
         {
             name: "No Stopping",
@@ -163,6 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
         var cards = document.querySelectorAll("img:not(#trafficSigns)");
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
+
 
         console.log(modalMerge);
 
