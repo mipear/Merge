@@ -93,6 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var clickedCard = [];
     var clickedCardId = [];
     let mergedCards = [];
+  
 
     // How to play and Need help modals//
     var modalInstructions = document.getElementById("instructionsModal");
@@ -167,7 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         console.log(modalMerge);
 
-        if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId) {
+        if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId){
             // should use modal instead of alert
             modalMerge.style.display = "block";
             cards[firstCardId].setAttribute(
@@ -178,10 +179,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 "src",
                 "assets/images/merge.webp"
             );
+            cards[firstCardId].removeEventListener('click', flipCard);
+            cards[secondCardId].removeEventListener('click', flipCard);
             mergedCards.push(clickedCard);
             clickedCard = [];
             clickedCardId = [];
-
         } else {
             cards[firstCardId].setAttribute("src", "assets/images/backcard.webp");
             cards[secondCardId].setAttribute("src", "assets/images/backcard.webp");
