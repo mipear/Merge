@@ -43,10 +43,10 @@ Acceptance criteria: The game should have multiple cards which turn over when cl
 ## Wireframes
 
 ### Desktop
+
 ![Desktop](assets/docs/wireframemerge.webp)
 
 ### Tablet
-
 
 ### Mobile
 
@@ -64,7 +64,7 @@ I used [Coolors](https://coolors.co/) to create the colour palette, as seen belo
 The colours used to section the page -- red, orange, and green -- reflects that of traffic lights, giving a cohesive feel to the page without creating distraction from the user goal of learning. At the top of the page, across devices, I have used red (#FA0707) in the title/header and favicon. Orange (#FFA600) is used within the middle of the page. This is seen on the border of the game area, within the modal buttons, and later in the unsuccessful match modal. The colour orange, here, represents the liminalality the user is currently in; wherein they have not yet passed their theory and are currently in the process of learning. Finally, lime green (#4ECC00) is used both in the score area (eventually saying 'Congratulations!') and within the successful match modal.
 
 Alongside these traffic light colours, black is used for text and white is used for the background of the page to ensure clarity for the learner driver. The back of the cards feature a yellow (#fee01c) car, giving a cohesive but slightly separate feel to the orange border of the game area.
-Lastly, light grey/platinum (#E2E2E2) was used to create the background of the game area, signifying a car park that the cars (cards) are parked onto. 
+Lastly, light grey/platinum (#E2E2E2) was used to create the background of the game area, signifying a car park that the cars (cards) are parked onto.
 
 While there is certainly a road theme within the game, partly fulfilling the user goal "2. I want to have fun while learning", the simplistic structure of the page ensures there is no distraction to the user's learning, hoping tp fulfill their goal of "1. I want to understand the meaning of UK road signs".
 
@@ -79,16 +79,20 @@ The Favicon shows a merge sign. The merge sign and the title, "MERGE" represents
 ## Final product
 
 ### Desktop
+
 ![Desktop](assets/docs/desktop.webp)
 
 ### Tablet
+
 ![Tablet](assets/docs/tablet.webp)
 
 ### Mobile
+
 ![Mobile](assets/docs/mobile.webp)
 (iPhone 4)
 
 ## Testing
+
 MERGE has been tested on the following browsers: Chrome, Safari
 Using [Google's Dev Tools](https://developer.chrome.com/docs/devtools/), MERGE has been tested on the following devices for responsivity: desktop, iPhone (4, SE, XR, 12 Pro), Pixel 5, Samsung Galaxy (S8+, S20 Ultra, and A51/71), iPad (Air and Mini), Surface (Pro 7, Duo), Galaxy Fold, and Nest Hub. The page has also been manually tested on the following devices: iPhone 11, iPad, and Chromebook.
 
@@ -111,7 +115,8 @@ The user is referred to further road signs within the "Need help?" modal button.
 ### Validator Testing
 
 - [JSHint](https://jshint.com/) has been used to test thoughout this project. Initially, there were lots of small errors, e.g. no semi-colon, which were easy to fix. There are currently no errors on JSHint.
-- [W3C HTML]() found 10 errors initially, all saying "Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values". There are currently no errors on W3C HTML. ![W3C HTML](assets/docs/w3chtml.webp)
+- [W3C HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FMerge%2F) found 10 errors initially, all showing "Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values". There are no errors on W3C HTML. ![W3C HTML](assets/docs/htmltesting.webp)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FMerge%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) found no errors. ![W3C CSS](assets/docs/csstesting.webp)
 
 ### Unfixed Bugs
 
@@ -128,7 +133,7 @@ The game was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Credits
 
-Thank you to Martina and Iris for their support in creating this game. Thank you also to my brother for his support and the team at tutor support.
+Thank you to Martina and Iris for their support in creating this game. Thank you also to my brother for his support and the team at tutor assistance.
 
 ### Content
 
@@ -139,8 +144,8 @@ The following tutorials/resources were useful in understanding how to create a m
 - [Create a Modal With HTML, CSS & JavaScript](https://www.youtube.com/watch?v=6ophW7Ask_0&ab_channel=TraversyMedia)
   
 - [Google Fonts](https://fonts.google.com/)' Martian Mono, monospace was used for the title and text of the game.
-- I used [Coolors] (<https://coolors.co/palette/fa0707-ffa600-52d600-ffffff-e2e2e2>) to generate the colour palette.
-- [Favicon] (https://favicon.io/favicon-converter/) was used to create the game's Favicon
+- I used [Coolors](https://coolors.co/palette/fa0707-ffa600-52d600-ffffff-e2e2e2) to generate the colour palette.
+- [Favicon](https://favicon.io/favicon-converter/) was used to create the game's Favicon
 - In order to assist in creating this README.md, I used [this](https://github.com/Code-Institute-Solutions/readme-template>) template.
 - [User Stories Guide](https://github.com/awkale/user-story-best-practice/blob/master/README.md)
 - [Am I responsive?](https://ui.dev/amiresponsive?url=https://mipear.github.io/Merge/) was used to create the mockup.
@@ -149,6 +154,8 @@ The following tutorials/resources were useful in understanding how to create a m
 - [CodeAnywhere](https://app.codeanywhere.com/)
 - [Google's Dev Tools](https://developer.chrome.com/docs/devtools/) for testing
 - [JSHint](https://jshint.com/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FMerge%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [W3C HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FMerge%2F)
 
 ### Media
 
