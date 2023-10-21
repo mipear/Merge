@@ -110,6 +110,9 @@ The user is referred to further road signs within the "Need help?" modal button.
 
 ### Validator Testing
 
+- [JSHint](https://jshint.com/) has been used to test thoughout this project. Initially, there were lots of small errors, e.g. no semi-colon, which were easy to fix. There are currently no errors on JSHint.
+- [W3C HTML]() found 10 errors initially, all saying "Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values". There are currently no errors on W3C HTML. ![W3C HTML](assets/docs/w3chtml.webp)
+
 ### Unfixed Bugs
 
 ## Deployment
@@ -125,27 +128,29 @@ The game was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Credits
 
-The following tutorials were useful in understanding how to create a memory card game
+Thank you to Martina and Iris for their support in creating this game. Thank you also to my brother for his support and the team at tutor support.
 
 ### Content
 
-- The Code Institute course tutorials have been imperative when creating this game. Namely, the [Love Maths Tutorial](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/8f9b28d4b7664bb59ddf18b8e090671f/87791688b88e46099e3a77f455419aa8/)
-- [Google Fonts](https://fonts.google.com/) Martian Mono, monospace was used for the title and text of the game.
+The following tutorials/resources were useful in understanding how to create a memory card game:
+
+- Code Institute course tutorials, namely, the [Love Maths Tutorial](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/8f9b28d4b7664bb59ddf18b8e090671f/87791688b88e46099e3a77f455419aa8/)
+- [Make MEMORY GAME](https://www.youtube.com/watch?v=tjyDOHzKN0w&ab_channel=CodewithAniaKub%C3%B3w)
+- [Create a Modal With HTML, CSS & JavaScript](https://www.youtube.com/watch?v=6ophW7Ask_0&ab_channel=TraversyMedia)
+  
+- [Google Fonts](https://fonts.google.com/)' Martian Mono, monospace was used for the title and text of the game.
 - I used [Coolors] (<https://coolors.co/palette/fa0707-ffa600-52d600-ffffff-e2e2e2>) to generate the colour palette.
 - [Favicon] (https://favicon.io/favicon-converter/) was used to create the game's Favicon
 - In order to assist in creating this README.md, I used [this](https://github.com/Code-Institute-Solutions/readme-template>) template.
 - [User Stories Guide](https://github.com/awkale/user-story-best-practice/blob/master/README.md)
 - [Am I responsive?](https://ui.dev/amiresponsive?url=https://mipear.github.io/Merge/) was used to create the mockup.
-- 
-<https://www.w3schools.com/howto/howto_css_modals.asp>
-^ this one for buttons
-
-<https://www.youtube.com/watch?v=6ophW7Ask_0&ab_channel=TraversyMedia>
-
-
+- [Balsamiq](https://balsamiq.com/wireframes/desktop/#) was used to create wireframes.
+- [Github](https://github.com/)
+- [CodeAnywhere](https://app.codeanywhere.com/)
+- [Google's Dev Tools](https://developer.chrome.com/docs/devtools/) for testing
+- [JSHint](https://jshint.com/)
 
 ### Media
 
-- The traffic signs and their definitions were taken from [Gov.uk's Highway Code Traffic Signs] (<https://assets.publishing.service.gov.uk/media/58170307ed915d61c5000000/the-highway-code-traffic-signs.pdf>)
-- I created the image of the car and the merge sign using [Procreate] (<https://procreate.com/>)
+- The traffic signs and their definitions were taken from [Gov.uk's Highway Code Traffic Signs](https://assets.publishing.service.gov.uk/media/58170307ed915d61c5000000/the-highway-code-traffic-signs.pdf)
 - [Procreate](https://procreate.com/) was used to create the card images.
