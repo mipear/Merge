@@ -208,8 +208,8 @@ document.addEventListener("DOMContentLoaded", () => {
         this.setAttribute("src", cardArray[cardIndex].img);
         if (clickedCard.length === 2) {
             setTimeout(matchCheck, 1000);
-        };
-    };
+        }
+    }
 
     generateCards();
 });

@@ -1,22 +1,67 @@
 # MERGE
 
-MERGE is a memory game that hopes to educate learner drivers of UK Road Signs in a fun, purposeful way. MERGE is targeted towards learner drivers and is a memory card matching game in which users have to match images of the road signs to their definitions. MERGE will be useful to learner drivers as it will create an addictive, fun space to learn the road signs in order to eventually pass their theory test.
+Here is the deployed version of [MERGE](<https://mipear.github.io/Merge/>)
+
+![Mockup](assets/docs/mockup.webp)
+
+## UX
+
+MERGE is an educational game that hopes to educate learner drivers of UK Road Signs in a fun, purposeful way. MERGE is targeted towards learner drivers and is a memory card matching game in which users have to match images of the road signs to their definitions. MERGE will be useful to learner drivers as it will create an addictive, fun space to learn the road signs in order to eventually pass their theory test.
 
 ## User Stories
 
+As a UK learner driver:
+
+- I want to understand the meaning of UK road signs
+- I want to have fun while learning
+- I want to play a road sign game without being distracted
+- I want to be referred to further road signs to take my knowledge further
+
+End user goal: to learn the road signs in order to pass my theory test.
+End business goal: to create a fun, educational game, and spread awareness of road sign meanings.
+
+Acceptance criteria: The game should have multiple cards which turn over when clicked to reveal road signs or definitions. Players should be able to click on two cards and the computer should reveal whether or not they are a match.
+
+## Scope
+
+### Features
+
+- Title 
+- Simple structure and colours to ensure user can focus solely on matching cards, furthering their road sign knowledge
+- 'How to play' button that ensures user can play the game with ease
+- 'Need help?' button that shows an image of the featured road signs within the game and their definition, taken from the [GOV.uk](<gov.uk>) website. This modal also includes a link to the GOV.uk website and a PDF featuring all of the road signs for the user to further their knowledge.
+- The game area includes 20 images of yellow cards. When clicked, these cards are replaced by 10 images of road signs and 10 images of their corresponding definitions. The user must match/merge these cards in order to gain a point. When matched, the cards are replaced by the 'merge' sign.
+- 'Sorry, please try again" modal which appear when a user is unsuccessful in finding a match, either through clicking two separate signs/defintiions or clicking the same card twice.
+- 'Great merge" modal which apppars when the user is successful in matching the road sign to its definition.
+- Score area - this increments score with every match and, when all cards are matched, congratulates the user.
+- Favicon - the favicon included is an image of the merge sign, as seen in the game once cards are matched.
+
+### Features left to implement
+
+- Easy, Medium, Hard pages that correlate to the amount of cards on the board.
+
 ## Wireframes
 
-## Mockup
+### Desktop
+![Desktop](assets/docs/wireframemerge.webp)
 
-## Features
+### Tablet
 
-### Existing Features
 
-**Start game page**
+### Mobile
+
+## Surface
+
+## Design
+
+### Colour
+
+### Font
+
+### Media
 
 **Favicon**
 
-### Features left to implement
 
 ## Testing
 
