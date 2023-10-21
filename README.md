@@ -76,16 +76,41 @@ While there is certainly a road theme within the game, partly fulfilling the use
 **Favicon**
 The Favicon shows a merge sign. The merge sign and the title, "MERGE" represents the matching or merging of road sign to definition, adding the the cohesive feel of the site. The favicon was created using [Favicon](https://favicon.io/favicon-converter/) and [Procreate](https://procreate.com/).
 
+## Final product
+
+### Desktop
+![Desktop](assets/docs/desktop.webp)
+
+### Tablet
+![Tablet](assets/docs/tablet.webp)
+
+### Mobile
+![Mobile](assets/docs/mobile.webp)
+(iPhone 4)
 
 ## Testing
+MERGE has been tested on the following browsers: Chrome, Safari
+Using [Google's Dev Tools](https://developer.chrome.com/docs/devtools/), MERGE has been tested on the following devices for responsivity: desktop, iPhone (4, SE, XR, 12 Pro), Pixel 5, Samsung Galaxy (S8+, S20 Ultra, and A51/71), iPad (Air and Mini), Surface (Pro 7, Duo), Galaxy Fold, and Nest Hub. The page has also been manually tested on the following devices: iPhone 11, iPad, and Chromebook.
+
+Testing user goals:
+
+*As a UK learner driver:*
+
+  *1. I want to understand the meaning of UK road signs*
+The user is able to learn the road signs effectively, through matching the signs to its defintion. The user may decide to refresh the game and the cards will be randomised, allowing the user to play over and over until they have understood. If the user requires additional road signs, a link is provided to further signs in the 'Need help?' modal. The modal also includes a quick recap of the road signs featured in the game to ensure the user is continuously learning and understanding the meaning of UK road signs.
+  
+  *2. I want to have fun while learning*
+By educating through the matching memory game, MERGE allows an addictive and interactive sense of fun for the learner driver. As a [significant](https://www.gov.uk/government/statistics/driver-and-rider-testing-and-instructor-statistics-april-2022-to-march-2023/driver-and-rider-testing-and-instructor-statistics-april-2022-to-march-2023#cars-by-age-gender-and-number-of-attempts) portion of learner drivers are young people, and [Statistica](https://www.statista.com/statistics/300513/gaming-by-demographic-group-uk/) claims that 88% of people aged 16-24 played video games in 2022, gaming is a useful tool to educate learner drivers. Furthermore, the game is fun through its use of traffic light colours and the cars (cards) being parked in a car park. It is visually stimulating for users to want to keep learning/playing.
+  
+  *3. I want to play a road sign game without being distracted*
+While the game is fun, the minimalistic structure to the game allows the user to play continuously without being distracted by unecessary colour or any visual elements that don't relate to the game itself. Initially the page included the MERGE sign as a logo in the corner of the page, however, it was removed as it was not only reundant to the user, but also distracting, especially on smaller devices.
+  
+  *4. I want to be referred to further road signs to take my knowledge further*
+The user is referred to further road signs within the "Need help?" modal button. This provides a link to the GOV.UK traffic signs page and it provides a link to a PDF including all traffic signs. These links open in separate tabs to the game itself, in order to ensure the user is not distracted and can play the game/learn efficiently.
 
 ### Validator Testing
 
 ### Unfixed Bugs
-
-## Final product
-
-
 
 ## Deployment
 
