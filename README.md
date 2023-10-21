@@ -68,11 +68,13 @@ Lastly, light grey/platinum (#E2E2E2) was used to create the background of the g
 
 While there is certainly a road theme within the game, partly fulfilling the user goal "2. I want to have fun while learning", the simplistic structure of the page ensures there is no distraction to the user's learning, hoping tp fulfill their goal of "1. I want to understand the meaning of UK road signs".
 
-### Font
+**Font**
+[Google Fonts]("https://fonts.google.com/")' "Martian Mono" and monospace waas used to create the font of the header and any text outside of the cards. '' has been used for the road sign definitions. These fonts have been used as they are clear to read, which is of upmost importance when seeking to educate the user.
 
 ### Media
 
 **Favicon**
+The Favicon shows a merge sign. The merge sign and the title, "MERGE" represents the matching or merging of road sign to definition, adding the the cohesive feel of the site. The favicon was created using [Favicon](https://favicon.io/favicon-converter/) and [Procreate](https://procreate.com/).
 
 
 ## Testing
@@ -80,6 +82,10 @@ While there is certainly a road theme within the game, partly fulfilling the use
 ### Validator Testing
 
 ### Unfixed Bugs
+
+## Final product
+
+
 
 ## Deployment
 
@@ -94,17 +100,27 @@ The game was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Credits
 
+The following tutorials were useful in understanding how to create a memory card game
+
 ### Content
 
 - The Code Institute course tutorials have been imperative when creating this game. Namely, the [Love Maths Tutorial](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/8f9b28d4b7664bb59ddf18b8e090671f/87791688b88e46099e3a77f455419aa8/)
-- [Google Fonts's] (<https://fonts.google.com/>) Martian Mono, monospace was used for the title and text of the game.
-- I used [Coolors] (<https://coolors.co/palette/fa0707-ffa600-52d600-ffffff-e2e2e2>) to generate a colour palette. My palette is a simple one that includes traffic light colours in keeping with the road theme.
-- [Favicon] (<https://favicon.io/favicon-converter/>) was used to create the game's Favicon
+- [Google Fonts](https://fonts.google.com/) Martian Mono, monospace was used for the title and text of the game.
+- I used [Coolors] (<https://coolors.co/palette/fa0707-ffa600-52d600-ffffff-e2e2e2>) to generate the colour palette.
+- [Favicon] (https://favicon.io/favicon-converter/) was used to create the game's Favicon
 - In order to assist in creating this README.md, I used [this](https://github.com/Code-Institute-Solutions/readme-template>) template.
 - [User Stories Guide](https://github.com/awkale/user-story-best-practice/blob/master/README.md)
-- Tutorials!!!!!!
+- [Am I responsive?](https://ui.dev/amiresponsive?url=https://mipear.github.io/Merge/) was used to create the mockup.
+- 
+<https://www.w3schools.com/howto/howto_css_modals.asp>
+^ this one for buttons
+
+<https://www.youtube.com/watch?v=6ophW7Ask_0&ab_channel=TraversyMedia>
+
+
 
 ### Media
 
 - The traffic signs and their definitions were taken from [Gov.uk's Highway Code Traffic Signs] (<https://assets.publishing.service.gov.uk/media/58170307ed915d61c5000000/the-highway-code-traffic-signs.pdf>)
 - I created the image of the car and the merge sign using [Procreate] (<https://procreate.com/>)
+- [Procreate](https://procreate.com/) was used to create the card images.

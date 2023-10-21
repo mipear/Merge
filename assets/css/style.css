@@ -190,6 +190,13 @@ h1 {
 
 /* Media Queries to allow responsivity */
 
+@media screen and (max-width: 850px) {
+    .game-area {
+        width: 600px;
+        height: 750px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .game-area {
         width: 600px;
