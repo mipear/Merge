@@ -111,16 +111,8 @@ h1 {
     height: 100%;
 }
 
-/* grid inspired by Learn JS by building 7 games video */
-.game-area {
-    display: flex;
-    flex-wrap: wrap;
-    height: 600px;
-    width: 750px;
-    background-color: #e0e0e0;
-    margin: auto;
-    border: 5px solid #ffb01fff;
-}
+/* grid inspired by Learn JS by building 7 games video *
+    
 
 /* Modal for card match */
 .modal-merge {
@@ -190,35 +182,40 @@ h1 {
 
 /* Media Queries to allow responsivity */
 
+#game-area {
+    margin: auto;
+    background-color: #e0e0e0;
+    border: 5px solid #ffb01fff;
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    align-items: center;
+    justify-content: center;
+    max-width: calc(150px * 5);
+    max-height: calc(54vh + 10%);
+}
+
+#game-area img {
+    height: 150px;
+    width: 135px;
+}
+
 @media screen and (max-width: 850px) {
-    .game-area {
-        width: 600px;
-        height: 750px;
+    #game-area {
+        grid-template-columns: repeat(4, 150px);
+        max-width: calc(150px * 4);
     }
 }
 
-@media screen and (max-width: 768px) {
-    .game-area {
-        width: 600px;
-        height: 750px;
+@media screen and (max-width: 637px) {
+    #game-area {
+        grid-template-columns: repeat(3, 150px);
+        max-width: calc(150px * 3);
     }
 }
 
-@media screen and (max-width: 480px) {
-    .game-area {
-        width: 450px;
-        height: auto;
+@media screen and (max-width: 510px) {
+    #game-area {
+        grid-template-columns: repeat(2, 150px);
+        max-width: calc(150px * 2);
     }
-}
-
-@media screen and (max-width: 320px) {
-    .game-area {
-        width: 300px;
-        height: auto;
-    }
-
-    h1 {
-        margin: 20px;
-    }
-
 }

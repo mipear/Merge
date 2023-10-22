@@ -93,7 +93,6 @@ document.addEventListener("DOMContentLoaded", () => {
     var clickedCard = [];
     var clickedCardId = [];
     let mergedCards = [];
-  
 
     // How to play and Need help modals//
     var modalInstructions = document.getElementById("instructions-modal");
@@ -136,6 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //inspired by making 7 games video. Generates cards//
 
     function generateCards() {
+        const gameArea = document.querySelector('#game-area');
         for (let i = 0; i < cardArray.length; i++) {
             var card = document.createElement("img");
             card.setAttribute("src", "assets/images/backcard.webp");
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const firstCardId = clickedCardId[0];
         const secondCardId = clickedCardId[1];
 
-        if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId){
+        if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId) {
             // should use modal instead of alert
             modalMerge.style.display = "block";
             cards[firstCardId].setAttribute(
