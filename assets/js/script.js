@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
-    //inspired by making 7 games video. Generates cards//
+    //Inspired by making 7 games video. Generates cards//
 
     function generateCards() {
         const gameArea = document.querySelector("#game-area");
@@ -179,7 +179,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const secondCardId = clickedCardId[1];
 
         if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId) {
-            // should use modal instead of alert
             modalMerge.style.display = "block";
             cards[firstCardId].setAttribute("src", "assets/images/merge.webp");
             cards[secondCardId].setAttribute("src", "assets/images/merge.webp");
@@ -211,6 +210,8 @@ document.addEventListener("DOMContentLoaded", () => {
         modalMerge.style.display = "none";
         clickedCard = [];
     });
+
+    // Flipcard //
 
     function flipCard() {
         var cardIndex = this.getAttribute("card-index");

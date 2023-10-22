@@ -1,221 +1,221 @@
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap");
 
+/* Header */
 h1 {
-    font-family: "Martian Mono", monospace;
-    text-align: center;
-    font-size: 60px;
-    color: #FA0707;
-    margin: 20px;
+  font-family: "Martian Mono", monospace;
+  text-align: center;
+  font-size: 60px;
+  color: #fa0707;
+  margin: 20px;
 }
 
 /* How to play modal */
 
 .container-button {
-    text-align: center;
+  text-align: center;
 }
 
 #how-to-play {
-    background-color: #ffb01fff;
-    margin: auto;
-    font-size: 15px;
+  background-color: #ffb01fff;
+  margin: auto;
+  font-size: 15px;
 }
 
 .instructions-modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .instructions-content {
-    margin: 15% auto;
-    width: 50%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 1.7);
-    background-color: #4ECC00;
-    padding: 20px;
-    font-family: "Martian Mono", monospace;
-    text-align: center;
-    font-size: 20px;
+  margin: 15% auto;
+  width: 50%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 1.7);
+  background-color: #4ecc00;
+  padding: 20px;
+  font-family: "Martian Mono", monospace;
+  text-align: center;
+  font-size: 20px;
 }
 
 /* Revision modal */
 
 #help {
-    background-color: #ffb01fff;
-    margin: auto;
-    font-size: 15px;
+  background-color: #ffb01fff;
+  margin: auto;
+  font-size: 15px;
 }
 
 .help-modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .help-content {
-    margin: 15% auto;
-    width: 50%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 1.7);
-    background-color: #4ECC00;
-    padding: 20px;
-    font-family: "Martian Mono", monospace;
-    text-align: center;
-    font-size: 20px;
+  margin: 15% auto;
+  width: 50%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 1.7);
+  background-color: #4ecc00;
+  padding: 20px;
+  font-family: "Martian Mono", monospace;
+  text-align: center;
+  font-size: 20px;
 }
 
 .close-instructions {
-    color: #ccc;
-    float: right;
-    font-size: 30px;
+  color: #ccc;
+  float: right;
+  font-size: 30px;
 }
 
 .close-instructions:hover,
 .close-instructions:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .close-revision {
-    color: #ccc;
-    float: right;
-    font-size: 30px;
+  color: #ccc;
+  float: right;
+  font-size: 30px;
 }
 
 .close-revision,
 .close-revision:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Traffic signs and definitions image within the modal, taken from https: //www.gov.uk/guidance/the-highway-code/traffic-signs */
 
 #traffic-signs {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
-
-/* grid inspired by Learn JS by building 7 games video *
-    
 
 /* Modal for card match */
 .modal-merge {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .modal-content-m {
-    margin: 40% auto;
-    width: 50%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 1.7);
-    background-color: #4ECC00;
-    padding: 20px;
-    font-family: "Martian Mono", monospace;
-    text-align: center;
-    font-size: 20px;
+  margin: 40% auto;
+  width: 50%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 1.7);
+  background-color: #4ecc00;
+  padding: 20px;
+  font-family: "Martian Mono", monospace;
+  text-align: center;
+  font-size: 20px;
 }
 
 /* Modal for unsuccessful attempt at matching cards */
 .modal-try {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .modal-content-t {
-    margin: 40% auto;
-    width: 50%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 1.7);
-    background-color: #ffb01fff;
-    padding: 20px;
-    font-family: "Martian Mono", monospace;
-    text-align: center;
-    font-size: 20px;
+  margin: 40% auto;
+  width: 50%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 1.7);
+  background-color: #ffb01fff;
+  padding: 20px;
+  font-family: "Martian Mono", monospace;
+  text-align: center;
+  font-size: 20px;
 }
 
 .close-modal {
-    color: #ccc;
-    float: right;
-    font-size: 30px;
+  color: #ccc;
+  float: right;
+  font-size: 30px;
 }
 
 .close-modal:hover,
 .close-modal:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Score area */
 .score-area p {
-    color: #4ECC00;
-    text-align: center;
-    font-size: 25px;
+  color: #4ecc00;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Game area */
+
+#game-area {
+  margin: auto;
+  background-color: #e0e0e0;
+  border: 5px solid #ffb01fff;
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  align-items: center;
+  justify-content: center;
+  max-width: calc(150px * 5);
+  max-height: calc(54vh + 10%);
+}
+
+#game-area img {
+  height: 150px;
+  width: 135px;
 }
 
 /* Media Queries to allow responsivity */
 
-#game-area {
-    margin: auto;
-    background-color: #e0e0e0;
-    border: 5px solid #ffb01fff;
-    display: grid;
-    grid-template-columns: repeat(5, 150px);
-    align-items: center;
-    justify-content: center;
-    max-width: calc(150px * 5);
-    max-height: calc(54vh + 10%);
-}
-
-#game-area img {
-    height: 150px;
-    width: 135px;
-}
-
 @media screen and (max-width: 850px) {
-    #game-area {
-        grid-template-columns: repeat(4, 150px);
-        max-width: calc(150px * 4);
-    }
+  #game-area {
+    grid-template-columns: repeat(4, 150px);
+    max-width: calc(150px * 4);
+  }
 }
 
 @media screen and (max-width: 637px) {
-    #game-area {
-        grid-template-columns: repeat(3, 150px);
-        max-width: calc(150px * 3);
-    }
+  #game-area {
+    grid-template-columns: repeat(3, 150px);
+    max-width: calc(150px * 3);
+  }
 }
 
 @media screen and (max-width: 510px) {
-    #game-area {
-        grid-template-columns: repeat(2, 150px);
-        max-width: calc(150px * 2);
-    }
+  #game-area {
+    grid-template-columns: repeat(2, 150px);
+    max-width: calc(150px * 2);
+  }
 }

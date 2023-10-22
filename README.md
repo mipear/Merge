@@ -71,33 +71,48 @@ Lastly, light grey/platinum (#E2E2E2) was used to create the background of the g
 While there is certainly a road theme within the game, partly fulfilling the user goal *"2. I want to have fun while learning"*, the simplistic structure of the page ensures there is no distraction to the user's learning, hoping to fulfill their goal of *"1. I want to understand the meaning of UK road signs"*.
 
 **Font**
-[Google Fonts](https://fonts.google.com/)' "Martian Mono" and monospace waas used to create the font of the header and any text outside of the cards. 'Futura' has been used for the road sign definitions, created on [Procreate](https://procreate.com/). These fonts have been used as they are clear to read, which is of upmost importance when seeking to educate the user.
+[Google Fonts](https://fonts.google.com/)' "Martian Mono" and monospace was used to create the font of the header and any text outside of the cards. 'Futura' has been used for the road sign definitions, created on [Procreate](https://procreate.com/). These fonts have been used as they are clear to read, which is of upmost importance when seeking to educate the user.
 
 ### Media
 
 **Favicon**
 The Favicon shows a merge sign. The merge sign and the title, "MERGE" represents the matching or merging of road sign to definition, adding the the cohesive feel of the site. The favicon was created using [Favicon](https://favicon.io/favicon-converter/) and [Procreate](https://procreate.com/).
 
-## Final product
+## Final product test
 
 Here is the final product:
 
 ### Desktop
 
 ![Desktop](assets/docs/desktop.webp)
+
+- I clicked on a card and it flipped to reveal a road sign:
+![Flip Card](assets/docs/flipped.webp)
+
+- I clicked on two matching cards and a modal displayed "Great MERGE". My score increased.
 ![Desktop Merged Cards](assets/docs/desktopgreatm.webp)
+
+- I clicked on an unsuccessful match and a modal appeared saying "Sorry, please try again".
+![Unsuccessful merge](assets/docs/unsuccessfulmerge.webp)
 
 ### Tablet
 
 ![Tablet](assets/docs/tablet.webp)
+
+- I clicked on "Need Help?" button and information on road signs appeared.
 ![Tablet Need Help?](assets/docs/tabletneedhelp.webp)
 
 ### Mobile
 
 ![Mobile](assets/docs/mobile.webp)
 (iPhone 4)
+
+- I clicked on "How To Play" and instructions appeared.
 ![Mobile How To Play](assets/docs/mobilehowto.webp)
 (iPhone SE)
+
+- I matched all of the road signs to their definitions and the score displayed "Congratulations".
+![Congratulations](assets/docs/congratulations.webp)
 
 MERGE fulfills the acceptance criteria: *The game should have multiple cards which turn over when clicked to reveal road signs or definitions. Players should be able to click on two cards and the computer should reveal whether or not they are a match.*
 
@@ -114,14 +129,14 @@ The user is able to learn the road signs effectively, through matching the signs
 By educating through the matching memory game, MERGE allows an addictive and interactive sense of fun for the learner driver. As a [significant](https://www.gov.uk/government/statistics/driver-and-rider-testing-and-instructor-statistics-april-2022-to-march-2023/driver-and-rider-testing-and-instructor-statistics-april-2022-to-march-2023#cars-by-age-gender-and-number-of-attempts) portion of learner drivers are young people, and [Statistica](https://www.statista.com/statistics/300513/gaming-by-demographic-group-uk/) claims that 88% of people aged 16-24 played video games in 2022, gaming is a useful tool to educate learner drivers. Furthermore, the game is fun through its use of traffic light colours and the cars (cards) being parked in a car park. It is visually stimulating for users to want to keep learning/playing.
 
 *3. I want to play a road sign game without being distracted*
-While the game is fun, the minimalistic structure to the game allows the user to play continuously without being distracted by unnecessary colour or any visual elements that don't relate to the game itself. Initially the page included the MERGE sign as a logo in the corner of the page, however, it was removed as it was not only reundant to the user, but also distracting, especially on smaller devices.
+While the game is fun, the minimalistic structure to the game allows the user to play continuously without being distracted by unnecessary colour or any visual elements that don't relate to the game itself. Initially the page included the MERGE sign as a logo in the corner of the page, however, it was removed as it was not only redundant to the user, but also distracting, especially on smaller devices.
 
 *4. I want to be referred to further road signs to take my knowledge further*
 The user is referred to further road signs within the "Need help?" modal button. This provides a link to the GOV.UK traffic signs page and it provides a link to a PDF including all traffic signs. These links open in separate tabs to the game itself, in order to ensure the user is not distracted and can play the game/learn efficiently.
 
 Using [Google's Dev Tools](https://developer.chrome.com/docs/devtools/), MERGE has been tested on the following devices for responsivity: desktop, iPhone (4, SE, XR, 12 Pro), Pixel 5, Samsung Galaxy (S8+, S20 Ultra, and A51/71), iPad (Air and Mini), Surface (Pro 7, Duo), Galaxy Fold, and Nest Hub. The page has also been manually tested on the following devices: iPhone 11, iPad, and Chromebook.
 
-While testing, an issue preesented itself in which the responsiveness of the site was quite inconsistent. The site would present itself correctly initially, with the widths all being smaller than its respective screen sizes due to breakpoints. However, after testing on different devices on Dev Tools, the site would become unresponsive. The site appeared to be attempting to ensure the title and buttons remain centered, causing the game area to be pulled off the screen. After numerous attempts of solving this issue and visiting and revisiting the game area's breakpoints, Sean from tutor assistance was able to help resolve the issue. The issue was that I had used flexbox for my game area as opposed to css grid which could handle the breakpoints more effectively. With Sean's assistance, the page is now fully responsive.
+While testing, an issue presented itself in which the responsiveness of the site was quite inconsistent. The site would present itself correctly initially, with the widths all being smaller than its respective screen sizes due to breakpoints. However, after testing on different devices on Dev Tools, the site would become unresponsive. The site appeared to be attempting to ensure the title and buttons remain centered, causing the game area to be pulled off the screen. After numerous attempts of solving this issue and visiting and revisiting the game area's breakpoints, Sean from tutor assistance was able to help resolve the issue. The issue was that I had used flexbox for my game area as opposed to css grid which could handle the breakpoints more effectively. The page is now fully responsive.
 
 Initially, MERGE scored merely 77% on [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)'s Accessibility test due to a lack of alt tags for images within the javascript file. This issue has now been rectified and here are the current scores:
 ![Google Lighthouse](assets/docs/lighthouse.webp)
