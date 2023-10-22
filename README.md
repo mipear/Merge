@@ -71,6 +71,7 @@ Lastly, light grey/platinum (#E2E2E2) was used to create the background of the g
 While there is certainly a road theme within the game, partly fulfilling the user goal *"2. I want to have fun while learning"*, the simplistic structure of the page ensures there is no distraction to the user's learning, hoping to fulfill their goal of *"1. I want to understand the meaning of UK road signs"*.
 
 **Font**
+
 [Google Fonts](https://fonts.google.com/)' "Martian Mono" and monospace was used to create the font of the header and any text outside of the cards. 'Futura' has been used for the road sign definitions, created on [Procreate](https://procreate.com/). These fonts have been used as they are clear to read, which is of upmost importance when seeking to educate the user.
 
 ### Media
@@ -122,16 +123,20 @@ Testing user goals:
 
 *As a UK learner driver:*
 
-*1. I want to understand the meaning of UK road signs*
+*1. I want to understand the meaning of UK road signs*:
+
 The user is able to learn the road signs effectively, through matching the signs to its defintion. The user may decide to refresh the game and the cards will be randomised, allowing the user to play over and over until they have understood. If the user requires additional road signs, a link is provided to further signs in the 'Need help?' modal. The modal also includes a quick recap of the road signs featured in the game to ensure the user is continuously learning and understanding the meaning of UK road signs.
 
-*2. I want to have fun while learning*
+*2. I want to have fun while learning*:
+
 By educating through the matching memory game, MERGE allows an addictive and interactive sense of fun for the learner driver. As a [significant](https://www.gov.uk/government/statistics/driver-and-rider-testing-and-instructor-statistics-april-2022-to-march-2023/driver-and-rider-testing-and-instructor-statistics-april-2022-to-march-2023#cars-by-age-gender-and-number-of-attempts) portion of learner drivers are young people, and [Statistica](https://www.statista.com/statistics/300513/gaming-by-demographic-group-uk/) claims that 88% of people aged 16-24 played video games in 2022, gaming is a useful tool to educate learner drivers. Furthermore, the game is fun through its use of traffic light colours and the cars (cards) being parked in a car park. It is visually stimulating for users to want to keep learning/playing.
 
-*3. I want to play a road sign game without being distracted*
+*3. I want to play a road sign game without being distracted*:
+
 While the game is fun, the minimalistic structure to the game allows the user to play continuously without being distracted by unnecessary colour or any visual elements that don't relate to the game itself. Initially the page included the MERGE sign as a logo in the corner of the page, however, it was removed as it was not only redundant to the user, but also distracting, especially on smaller devices.
 
-*4. I want to be referred to further road signs to take my knowledge further*
+*4. I want to be referred to further road signs to take my knowledge further*:
+
 The user is referred to further road signs within the "Need help?" modal button. This provides a link to the GOV.UK traffic signs page and it provides a link to a PDF including all traffic signs. These links open in separate tabs to the game itself, in order to ensure the user is not distracted and can play the game/learn efficiently.
 
 Using [Google's Dev Tools](https://developer.chrome.com/docs/devtools/), MERGE has been tested on the following devices for responsivity: desktop, iPhone (4, SE, XR, 12 Pro), Pixel 5, Samsung Galaxy (S8+, S20 Ultra, and A51/71), iPad (Air and Mini), Surface (Pro 7, Duo), Galaxy Fold, and Nest Hub. The page has also been manually tested on the following devices: iPhone 11, iPad, and Chromebook.
