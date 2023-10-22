@@ -5,83 +5,103 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             name: "National Speed Limit",
             img: "assets/images/nationalspeedlimit.webp",
+            alt: "National Speed Limit"
         },
         {
             name: "No Stopping",
-            img: "assets/images/nostopping.webp"
+            img: "assets/images/nostopping.webp",
+            alt: "No Stopping"
         },
         {
             name: "Mini Roundabout",
-            img: "assets/images/miniroundabout.webp"
+            img: "assets/images/miniroundabout.webp",
+            alt: "Mini Roundabout"
         },
         {
             name: "No Overtaking",
-            img: "assets/images/noovertaking.webp"
+            img: "assets/images/noovertaking.webp",
+            alt: "No Overtaking"
         },
         {
             name: "Steep Downwards",
-            img: "assets/images/steepdownwards.webp"
+            img: "assets/images/steepdownwards.webp",
+            alt: "Steep Downwards"
         },
         {
             name: "Frail Pedestrian Crossing",
-            img: "assets/images/frailpedestrianscross.webp"
+            img: "assets/images/frailpedestrianscross.webp",
+            alt: "Frail Pedestrian Crossing"
         },
         {
             name: "End of Motorway",
-            img: "assets/images/endmotorway.webp"
+            img: "assets/images/endmotorway.webp",
+            alt: "End of Motorway"
         },
         {
             name: "With flow bus",
-            img: "assets/images/withflowbus.webp"
+            img: "assets/images/withflowbus.webp",
+            alt: "With flow bus"
         },
         {
             name: "No Through Road",
-            img: "assets/images/nothroughroad.webp"
+            img: "assets/images/nothroughroad.webp",
+            alt: "No Through Road"
         },
         {
             name: "Camera",
-            img: "assets/images/camera.webp"
+            img: "assets/images/camera.webp",
+            alt: "Camera"
         },
         // Definitions of road signs //
         {
             name: "National Speed Limit",
-            img: "assets/images/definitionnationalspeedlimit.webp"
+            img: "assets/images/definitionnationalspeedlimit.webp",
+            alt: "Definition: National Speed Limit"
         },
         {
             name: "No Stopping",
-            img: "assets/images/definitionnostopping.webp"
+            img: "assets/images/definitionnostopping.webp",
+            alt: "Definition: No Stopping"
         },
         {
             name: "Mini Roundabout",
-            img: "assets/images/definitionminiroundabout.webp"
+            img: "assets/images/definitionminiroundabout.webp",
+            alt: "Definition: Mini Roundabout"
         },
         {
             name: "No Overtaking",
-            img: "assets/images/definitionnoovertaking.webp"
+            img: "assets/images/definitionnoovertaking.webp",
+            alt: "Definition: No Overtaking"
         },
         {
             name: "Steep Downwards",
-            img: "assets/images/definitionsteepdownwards.webp"
+            img: "assets/images/definitionsteepdownwards.webp",
+            alt: "Definition: Steep Downwards"
         },
         {
             name: "Frail Pedestrian Crossing",
-            img: "assets/images/definitionfrailpedestrians.webp"
+            img: "assets/images/definitionfrailpedestrians.webp",
+            alt: "Definition: Frail Pedestrian Crossing"
         },
         {
             name: "End of Motorway",
-            img: "assets/images/definitionendmotorway.webp"
+            img: "assets/images/definitionendmotorway.webp",
+            alt: "Definition: End of Motorway"
         },
         {
             name: "With flow bus",
-            img: "assets/images/definitionwithflowbus.webp"
+            img: "assets/images/definitionwithflowbus.webp",
+            alt: "Definition: With flow bus"
         },
         {
             name: "No Through Road",
-            img: "assets/images/definitionnothroughroad.webp"
+            img: "assets/images/definitionnothroughroad.webp",
+            alt: "Definition: No Through Road"
         },
         {
             name: "Camera",
-            img: "assets/images/definitioncamera.webp"
+            img: "assets/images/definitioncamera.webp",
+            alt: "Definition: Camera"
         },
     ];
 
@@ -140,6 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
             var card = document.createElement("img");
             card.setAttribute("src", "assets/images/backcard.webp");
             card.setAttribute("card-index", i);
+            card.setAttribute("alt", cardArray[i].alt);
             card.addEventListener("click", flipCard);
             gameArea.appendChild(card);
         }
