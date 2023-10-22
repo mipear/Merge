@@ -108,7 +108,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Randomizes cards //
     cardArray.sort(() => 0.5 - Math.random());
 
-    const gameArea = document.querySelector(".game-area");
     const displayResult = document.querySelector("#result");
     var clickedCard = [];
     var clickedCardId = [];
@@ -150,12 +149,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
-
-
     //inspired by making 7 games video. Generates cards//
 
     function generateCards() {
-        const gameArea = document.querySelector('#game-area');
+        const gameArea = document.querySelector("#game-area");
         for (let i = 0; i < cardArray.length; i++) {
             var card = document.createElement("img");
             card.setAttribute("src", "assets/images/backcard.webp");
@@ -172,7 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalMerge = document.getElementById("modal-merge");
     var closeModal = document.getElementsByClassName("close-modal")[0];
 
-    closeModal.addEventListener('click', closeModal);
+    closeModal.addEventListener("click", closeModal);
 
     // Function checks if there is a match between cards//
 
@@ -184,16 +181,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (clickedCard[0] === clickedCard[1] && firstCardId != secondCardId) {
             // should use modal instead of alert
             modalMerge.style.display = "block";
-            cards[firstCardId].setAttribute(
-                "src",
-                "assets/images/merge.webp"
-            );
-            cards[secondCardId].setAttribute(
-                "src",
-                "assets/images/merge.webp"
-            );
-            cards[firstCardId].removeEventListener('click', flipCard);
-            cards[secondCardId].removeEventListener('click', flipCard);
+            cards[firstCardId].setAttribute("src", "assets/images/merge.webp");
+            cards[secondCardId].setAttribute("src", "assets/images/merge.webp");
+            cards[firstCardId].removeEventListener("click", flipCard);
+            cards[secondCardId].removeEventListener("click", flipCard);
             mergedCards.push(clickedCard);
             clickedCard = [];
             clickedCardId = [];
@@ -204,7 +195,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         clickedCard = [];
         clickedCardId = [];
-
 
         displayResult.textContent = mergedCards.length;
         if (mergedCards.length === cardArray.length / 2) {
