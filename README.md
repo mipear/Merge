@@ -44,11 +44,15 @@ Acceptance criteria: The game should have multiple cards which turn over when cl
 
 ### Desktop
 
-![Desktop](assets/docs/wireframemerge.webp)
+![Desktop](assets/docs/wireframes/wireframemerge.webp)
 
 ### Tablet
 
+![Tablet](assets/docs/wireframes/wireframetablet.webp)
+
 ### Mobile
+
+![Mobile](assets/docs/wireframes/wireframemobile.webp)
 
 ## Surface
 
@@ -69,7 +73,7 @@ Lastly, light grey/platinum (#E2E2E2) was used to create the background of the g
 While there is certainly a road theme within the game, partly fulfilling the user goal "2. I want to have fun while learning", the simplistic structure of the page ensures there is no distraction to the user's learning, hoping tp fulfill their goal of "1. I want to understand the meaning of UK road signs".
 
 **Font**
-[Google Fonts]("https://fonts.google.com/")' "Martian Mono" and monospace waas used to create the font of the header and any text outside of the cards. '' has been used for the road sign definitions. These fonts have been used as they are clear to read, which is of upmost importance when seeking to educate the user.
+[Google Fonts]("https://fonts.google.com/")' "Martian Mono" and monospace waas used to create the font of the header and any text outside of the cards. 'Futura' has been used for the road sign definitions, created on [Procreate](https://procreate.com/). These fonts have been used as they are clear to read, which is of upmost importance when seeking to educate the user.
 
 ### Media
 

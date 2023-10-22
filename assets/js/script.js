@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Images of road signs //
         {
             name: "National Speed Limit",
-            img: "assets/images/nationalspeedlimit.webp"
+            img: "assets/images/nationalspeedlimit.webp",
         },
         {
             name: "No Stopping",
