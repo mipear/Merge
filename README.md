@@ -85,20 +85,27 @@ The Favicon shows a merge sign. The merge sign and the title, "MERGE" represents
 ### Desktop
 
 ![Desktop](assets/docs/desktop.webp)
+![Desktop Merged Cards](assets/docs/desktopgreatm.webp)
 
 ### Tablet
 
 ![Tablet](assets/docs/tablet.webp)
+![Tablet Need Help?](assets/docs/tabletneedhelp.webp)
 
 ### Mobile
 
 ![Mobile](assets/docs/mobile.webp)
 (iPhone 4)
+![Mobile How To Play](assets/docs/mobilehowto.webp)
+(iPhone SE)
 
 ## Testing
 
 MERGE has been tested on the following browsers: Chrome, Safari
+
 Using [Google's Dev Tools](https://developer.chrome.com/docs/devtools/), MERGE has been tested on the following devices for responsivity: desktop, iPhone (4, SE, XR, 12 Pro), Pixel 5, Samsung Galaxy (S8+, S20 Ultra, and A51/71), iPad (Air and Mini), Surface (Pro 7, Duo), Galaxy Fold, and Nest Hub. The page has also been manually tested on the following devices: iPhone 11, iPad, and Chromebook.
+
+While testing, an issue preesented itself in which the responsiveness of the site was quite inconsistent. The site would present itself correctly initially, with the widths all being smaller than its respective screen sizes due to breakpoints. However, after testing on different devices on Dev Tools, the site would become unresponsive. The site appeared to be attempting to ensure the title and buttons remain centered, causing the game area to be pulled off the screen. After numerous attempts of solving this issue and visiting and revisiting the game area's breakpoints, Sean from tutor assistance was able to help resolve the issue. The issue was that I had used flexbox for my game area as opposed to css grid which could handle the breakpoints more effectively. With Sean's assistance, the page is not fully responsive.
 
 Testing user goals:
 
